@@ -157,7 +157,7 @@
     autoplay: true,
     dots: true,
     loop: true,
-    autoplaySpeed: 5000, 
+    autoplaySpeed: 5000,
     responsive: {
       0: {
         items: 1

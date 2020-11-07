@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Frank", sans-serif;
   background-color: Black;
 }
 
@@ -23,9 +23,11 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Ruhl", sans-serif;
 }
-
+strong {
+  color: purple;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -420,7 +422,6 @@ section {
 .about .p {
   color: red;
 }
-
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -764,8 +765,9 @@ color: white;
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
-  background: #fff;
+  background: pink;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  color: fuchsia;
 }
 
 .contact .php-email-form .form-group {
@@ -837,10 +839,10 @@ color: white;
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #149ddd;
+  background: fuchsia;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: purple;
   transition: 0.4s;
   border-radius: 4px;
 }
