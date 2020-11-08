@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Ruhl", sans-serif;
 }
 strong {
-  color: purple;
+  color: fuchsia;
 }
 /*--------------------------------------------------------------
 # Back to top button
@@ -442,7 +442,7 @@ color: white;
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: fuchsia;
+  color: pink;
 }
 
 .about .content p:last-child {
