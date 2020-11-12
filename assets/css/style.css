@@ -305,7 +305,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: fuchsia;
   bottom: 0;
   left: 0;
 }
@@ -340,13 +340,13 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: black;
+  color: fuchsia;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: fuchsia;
+  color: purple;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -358,6 +358,9 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+  box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
 }
 
 .portfolio .portfolio-wrap::before {
@@ -399,7 +402,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid white;
+  border-left: 1px solid pink;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -407,14 +410,17 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 1;
+  opacity: .5;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
 }
-
+.portfolio-description{
+  color: pink;
+  font-family: "Frank";
+}
 
 /*--------------------------------------------------------------
 # About
@@ -464,7 +470,7 @@ color: white;
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: red;
   float: left;
 }
 
@@ -473,7 +479,7 @@ color: white;
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: green;
   margin-left: 60px;
 }
 
@@ -482,21 +488,21 @@ color: white;
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: yellow;
 }
 
 .facts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #122f57;
+  color: brown;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: red;
 }
 
 /*--------------------------------------------------------------
@@ -515,7 +521,7 @@ color: white;
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: red;
 }
 
 .skills .progress .skill .val {
@@ -524,14 +530,14 @@ color: white;
 }
 
 .skills .progress-bar-wrap {
-  background: #dce8f8;
+  background: blue;
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #149ddd;
+  background-color: yellow;
 }
 
 /*--------------------------------------------------------------
@@ -539,6 +545,7 @@ color: white;
 --------------------------------------------------------------*/
 .services .icon-box {
   margin-bottom: 20px;
+  color: white;
 }
 
 .services .section-texto {
@@ -874,7 +881,7 @@ color: white;
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background: #f9f9f9;
+  background: fuchsia;
 }
 
 .breadcrumbs h2 {
@@ -898,7 +905,7 @@ color: white;
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #0e2442;
+  color: fuchsia;
   content: "/";
 }
 
@@ -941,19 +948,19 @@ color: white;
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ddd !important;
+  background-color: pink !important;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #149ddd !important;
+  background-color: fuchsia !important;
 }
 
 .portfolio-details .portfolio-info {
-  padding: 30px;
+  padding: 20px;
   position: absolute;
   right: 0;
   bottom: -70px;
-  background: #fff;
+  background: Pink;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   z-index: 2;
 }
